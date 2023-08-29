@@ -24,95 +24,30 @@
     <div class="container">
       <div class="card">
         <div class="card-body">
-          <h1>
-            <span id="current-city">Sydney</span>
-            <span class="current-temp" id="temp">18°</span>
-            <span>
-              <span class="unit">
-                <a href="#" id="celsius">C</a>/<a href="#" id="fahrenheit">F</a>
-              </span>
-            </span>
-          </h1>
-          <h2>
-            <span class="low">L:10°C &nbsp &nbsp</span>
-            <span class="high">&nbsp &nbsp H:24°C </span>
-            <div class="time" id="day-time"><strong>Friday 20:30</strong></div>
-          </h2>
-          <h3><span class="mainemoji"> ☀️ </span></h3>
-          <h4>
-            Wind: 5km
-            <br />
-            Precipitation: 0mm
-          </h4>
-
+          <h1>New York</h1>
+          <ul>
+            <li>Friday 05:00</li>
+            <li>Clear</li>
+          </ul>
           <div class="row">
-            <div class="col-sm firstday">
-              <span class="day">Sun </span><br />
-              <span class="emoji">⛅ </span>
-              <br />
-              L:10°C &nbsp H:22°C
+            <div class="col-6">
+              <img
+                src="https://ssl.gstatic.com/onebox/weather/64/sunny.png"
+                alt="Clear"
+              />
+              12°C | °F
             </div>
-            <div class="col-sm secondday">
-              <span class="day">Mon</span>
-              <br />
-              <span class="emoji">☀️</span>
-              <br />
-              L:16°C &nbsp H:26°C
-            </div>
-            <div class="col-sm thirdday">
-              <span class="day">Tues </span>
-              <br />
-              <span class="emoji">🌧️</span>
-              <br />
-              L:8°C &nbsp H:19°C
-            </div>
-            <div class="col-sm fourthday">
-              <span class="day">Wed</span>
-              <br />
-              <span class="emoji">⛈️ </span>
-              <br />
-              L:8°C &nbsp H:17°C
-            </div>
-            <div class="col-sm fifthday">
-              <span class="day">Thurs </span>
-              <br />
-              <span class="emoji">🌦️</span>
-              <br />
-              L:6°C &nbsp H:18°C
+            <div class="col-6">
+              <ul>
+                <li>Precipitation: 0%</li>
+                <li>Humidity 73%</li>
+                <li>Wind: 2km/h</li>
+              </ul>
             </div>
           </div>
-
-          <form id="search-form" class="form-inline">
-            <div class="form-group mx-sm-3 mb-2">
-              <input
-                class="searchbar"
-                type="text"
-                class="form-control"
-                id="search"
-                placeholder="Search for a city"
-                autofocus="on"
-                autocomplete="off"
-              />
-              <button
-                id="submitCity"
-                value="Search"
-                type="submit"
-                class="btn btn-primary mb-2"
-              >
-                Search
-              </button>
-            </div>
-          </form>
         </div>
       </div>
     </div>
-    <br />
-    <a
-      class="link"
-      href="https://github.com/gmodel95/my-final-project-plus"
-      target="_blank"
-      >Source Code
-    </a>
     <script src="src/app.js"></script>
   </body>
 </html>
